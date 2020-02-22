@@ -1,0 +1,24 @@
+{
+	"path":
+	{
+		"INPUT_NAME":"CHIME3_tr_Noisy",
+		"TARGET_NAME":"CHiME3_tr_Speech",
+		"NOISE_NAME":"CHiME3_tr_Noise",
+		"INPUT_PATH":"D:/Research/DB_Audio/CHIME3_tr_Noisy",
+		"TARGET_PATH":"D:/Research/DB_Audio/CHIME3_tr_Noisy/target",
+		"NOISE_PATH":"D:/Research/DB_Audio/CHIME3_tr_Noisy/noise",
+		"MODEL_TYPE":"TAU-Net"         
+	},   
+	"feat":
+	{
+		"DB_read_seed":3,
+		"num_file_DB":"whole",
+		"feat_type":"STFT_mag",
+		"fs":16000,
+		"flen":1024,
+		"foverlap":0.75,
+		"nFFT":1024,
+		"DC_Bin":2,
+		"feat_len":513
+	}
+}
